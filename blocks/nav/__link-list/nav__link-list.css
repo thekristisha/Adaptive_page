@@ -1,0 +1,15 @@
+.nav__link-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+@media screen and (max-width:740px){
+    .nav__link-list{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}

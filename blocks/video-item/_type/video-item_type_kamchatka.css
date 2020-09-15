@@ -1,0 +1,17 @@
+.video-item_type_kamchatka{
+    background-image: url(../../../static/images/kamchatka.jpg);
+}
+
+.video-item_type_kamchatka::after{
+    content: "";
+    background-color: #000000;
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}

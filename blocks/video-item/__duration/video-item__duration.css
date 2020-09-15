@@ -1,0 +1,30 @@
+.video-item__duration{
+    color: inherit;
+    position: relative;
+    margin: 94px 0 0 30px;
+    max-width: 44px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    z-index: 3;
+}
+
+@media screen and (max-width:740px){
+    .video-item__duration{
+        margin: auto 0 0 16px;
+    }
+}
+
+@media screen and (min-width: 741px) and (max-width:948px){
+    .video-item__duration{
+        margin: auto 0 0 25px;
+    }
+}
+
+@media screen and (min-width: 949px) and (max-width:1204px){
+    .video-item__duration{
+        margin: 54px 0 0 30px;
+    }
+}

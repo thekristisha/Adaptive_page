@@ -1,0 +1,65 @@
+.cover{
+    max-width: 1184px;
+    height: 594px;
+    margin: 107px auto 0;
+    background-image: url(../../static/images/cover.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.cover:hover:before{
+    content: "";
+    background: rgba(0, 0, 0, .1);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cover::after{
+    content: "";
+    background-color: #000000;
+    opacity: 0.4;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+@media screen and (max-width:363px){
+    .cover{
+    width: 100%;
+    height: 216px;
+    margin: 64px 0 0;
+    }
+    }
+    
+@media screen and (min-width: 364px) and (max-width:740px){
+    .cover{
+    width: 100%;
+    height: 272px;
+    margin: 47px 0 0;
+    }
+    }
+    
+    @media screen and (min-width: 741px) and (max-width:948px){
+    .cover{
+    width: 100%;
+    height: 500px;
+    }
+    }
+    
+    @media screen and (min-width: 949px) and (max-width:1204px){
+    .cover{
+    width: 100%;
+    height: 562px;
+    margin: 102px auto 0;
+    }
+    }
+

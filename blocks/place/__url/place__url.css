@@ -1,0 +1,8 @@
+.place__url{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: inherit;
+    margin: 16px 0 0;
+    transition: opacity 0.5s ease;
+}

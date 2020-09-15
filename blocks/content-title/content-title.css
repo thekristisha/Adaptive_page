@@ -1,0 +1,41 @@
+.content-title{
+    max-width: calc(100% - 2*192px);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width:349px){
+    .content-title{
+        max-width: calc(100% - 2*16px);
+        margin: 0 auto;        
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:740px){
+    .content-title{
+        max-width: 100%;
+        margin: 0 auto;        
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 741px) and (max-width:948px){
+    .content-title{
+        max-width: calc(100% - 2*50px);
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (min-width: 949px) and (max-width:1204px){
+    .content-title{
+        max-width: 800px;
+    }
+}

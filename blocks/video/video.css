@@ -1,0 +1,24 @@
+.video{
+    max-width: 1184px;
+    margin: 102px auto;
+}
+
+@media screen and (max-width:740px){
+    .video{
+        margin: 64px auto 0;
+    }
+}
+
+@media screen and (min-width: 741px) and (max-width:948px){
+    .video{
+        max-width: calc(100% - 2*24px);
+    }
+}
+
+@media screen and (min-width: 949px) and (max-width:1204px){
+    .video{
+        max-width: calc(100% - 2*48px);
+        margin: 107px auto;
+
+    }
+}
